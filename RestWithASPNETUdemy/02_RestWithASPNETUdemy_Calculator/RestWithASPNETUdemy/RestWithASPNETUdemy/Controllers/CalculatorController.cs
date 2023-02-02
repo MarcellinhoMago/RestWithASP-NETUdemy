@@ -88,7 +88,7 @@ namespace RestWithASPNETUdemy.Controllers
             }
         }
 
-        [HttpGet("square-root/{firstNumber}/{secondNumber}")]
+        [HttpGet("square-root/{firstNumber}")]
         public IActionResult SquareRoot(string firstNumber)
         {
             var rng = new Random();
